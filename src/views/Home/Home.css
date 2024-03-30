@@ -25,8 +25,15 @@ body{
     width: 282px;
     font-size: 18px;
     border-radius: 50px;
-    border: 2px solid brown;
+    border: 2px solid #037ffb;
     padding: 6px 28px;
+}
+.error-msg{
+    text-align: center;
+    color: red;
+     margin-right: 280px;
+     margin-top: 10px;
+     font-size: 17px;
 }
 
 .tasks-container{
