@@ -14,7 +14,7 @@ function Home() {
   }
 
 const validateNewTasks = () =>
- { if (newTask === '') {
+ { if (!newTask) {
   setError('Please enter a task');
   return false;
 } else if (newTask.length < 5) {
