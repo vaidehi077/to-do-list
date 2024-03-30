@@ -14,7 +14,7 @@ function Home() {
   }
 
 const validateNewTasks = () =>
- { if (newTask == '') {
+ { if (newTask === '') {
   setError('Please enter a task');
   return false;
 } else if (newTask.length < 5) {
@@ -48,7 +48,7 @@ const validateNewTasks = () =>
   }
 
   useEffect(() => {
-    if (tasks.length == 0) {
+    if (tasks.length === 0) {
       return;
     }
     saveTasksToLS(tasks);
