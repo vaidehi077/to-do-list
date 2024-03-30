@@ -48,7 +48,7 @@ const validateNewTasks = () =>
   }
 
   useEffect(() => {
-    if (tasks.length === 0) {
+    if (tasks.length == 0) {
       return;
     }
     saveTasksToLS(tasks);
